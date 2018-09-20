@@ -78,17 +78,17 @@ class ArrayList
 	}
 	
 	public void deleteAll()
-    {
-        if(index == -1)
-            System.out.println("List is already empty.");
-        else
-        {
-			System.out.println("> Before deletion, no. of elements = " + (getIndex()+1));
-            index = -1;
-            x = new int[osize];
-			System.out.println("> After deletion, no. of elements = " + (getIndex()+1));
-        }
-    }
+    	{
+		if(index == -1)
+		    System.out.println("List is already empty.");
+		else
+		{
+				System.out.println("> Before deletion, no. of elements = " + (getIndex()+1));
+		    index = -1;
+		    x = new int[osize];
+				System.out.println("> After deletion, no. of elements = " + (getIndex()+1));
+		}
+    	}
 }
 public class q1
 {
